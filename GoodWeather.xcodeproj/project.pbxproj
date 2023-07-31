@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		E2A5A7892A775FAF00F4E7D4 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		E2A5A78B2A7773A200F4E7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E2B0BF842A73C81A001D1EB6 /* GoodWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B0BF872A73C81A001D1EB6 /* GoodWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodWeatherApp.swift; sourceTree = "<group>"; };
 		E2B0BF892A73C81A001D1EB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 		E2B0BF862A73C81A001D1EB6 /* GoodWeather */ = {
 			isa = PBXGroup;
 			children = (
+				E2A5A78B2A7773A200F4E7D4 /* Info.plist */,
 				E2A5A7882A775F9500F4E7D4 /* View Models */,
 				E2B0BF992A73CC69001D1EB6 /* Services */,
 				E2B0BF962A73CBC8001D1EB6 /* Models */,
@@ -306,6 +308,7 @@
 				DEVELOPMENT_TEAM = 2WY4RH7F35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoodWeather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -336,6 +339,7 @@
 				DEVELOPMENT_TEAM = 2WY4RH7F35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoodWeather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
